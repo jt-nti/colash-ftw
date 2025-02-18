@@ -1,6 +1,20 @@
 const DISPLAY_BOX = "\u25A1";
 
 const symbols = [
+    /* Weird 19th-Century Punctuation Marks */
+    {
+        glyph: ",—",
+        name: "Commash"
+    },
+    {
+        glyph: ";—",
+        name: "Semi-colash"
+    },
+    {
+        glyph: ":—",
+        name: "Colash"
+    },
+
     /* samwho */
     {
         glyph: "©",
